@@ -1,0 +1,61 @@
+\chapter{Projekt}
+
+\section{Wymagania funkcjonalne i niefunkcjonalne}
+
+\textbf{Wymagania funkcjonalne:}
+\begin{itemize}
+\item Autonomiczna i płynna zmiana jasności świecenia lampy (w 3 zdefiniowanych progach) w zależności od zmian natężenia światła w pomieszczeniu \cite{karta_projektu}.
+\item Ciągłe monitorowanie poziomu oświetlenia otoczenia z wykorzystaniem zintegrowanego czujnika natężenia światła (np. fotorezystora) \cite{karta_projektu}.
+\item Przetwarzanie i przeliczanie zebranych danych z czujnika za pomocą specjalnego algorytmu wykorzystującego zbiory rozmyte i wnioskowanie (Fuzzy Logic) \cite{karta_projektu}.
+\item Prezentacja przetwarzania poprawności danych z czujnika przez algorytm rozmyty z wykorzystaniem wykresów (np. w monitorze portu szeregowego) \cite{karta_projektu}.
+\end{itemize}
+
+\textbf{Wymagania niefunkcjonalne:}
+\begin{itemize}
+\item Oparcie systemu na mikrokontrolerze ESP32 połączonym z modułem oświetleniowym w postaci taśmy LED WS2812 \cite{karta_projektu}.
+\item Zapewnienie stabilności działania prototypu oznaczającej pracę bez zawieszania się układu przez co najmniej 1 godzinę ciągłej pracy \cite{karta_projektu}.
+\item Eliminacja problemu wizualnego „migotania” lampy na granicy wartości zbiorów rozmytych poprzez zaimplementowanie funkcji uśredniania wyników (np. średnia krocząca z czujnika) oraz właściwe dostrojenie logiki \cite{karta_projektu}.
+\item Wykorzystanie w schemacie elektrycznym zewnętrznego zasilacza 5V i kondensatorów ze względu na ryzyko dużego poboru prądu przez taśmę LED \cite{karta_projektu}.
+\item Umieszczenie komponentów w bezpiecznej, spasowanej obudowie przygotowanej z wykorzystaniem technologii druku 3D \cite{karta_projektu}.
+\item Zmniejszenie zmęczenia oczu użytkownika i ograniczenie zużycia prądu dzięki wprowadzonej optymalizacji \cite{karta_projektu}.
+\end{itemize}
+
+\section{Przypadki użycia}
+
+
+\vspace{0.5cm}
+\noindent\textbf{Przypadek użycia:} Automatyczna regulacja jasności\
+\textbf{Aktor:} Otoczenie / System\
+\textbf{Opis:} System autonomicznie dobiera jasność diod na podstawie zmiany warunków świetlnych w otoczeniu \cite{karta_projektu}.\
+\textbf{Warunki wstępne:} Mikrokontroler ESP32 jest podłączony do zasilania, a czujnik natężenia światła zbiera dane.\
+\textbf{Przebieg:}
+\begin{enumerate}
+\item Czujnik wykonuje pomiar jasności otoczenia i przekazuje dane.
+\item Dane z czujnika trafiają do algorytmu Fuzzy Logic.
+\item Algorytm na podstawie określonych reguł (np. "jeśli jest ciemno, ustaw jasność na maksimum") wylicza sygnał sterujący.
+\item Mikrokontroler płynnie dostosowuje natężenie własnego światła na taśmie LED.
+\end{enumerate}
+
+\vspace{0.5cm}
+\noindent\textbf{Przypadek użycia:} Stabilizacja odczytów (zapobieganie migotaniu)\
+\textbf{Aktor:} System\
+\textbf{Opis:} Algorytm zabezpiecza lampę przed niepożądanym zjawiskiem migotania światła na granicach zdefiniowanych wartości \cite{karta_projektu}.\
+\textbf{Warunki wstępne:} System pracuje w trybie ciągłego odczytywania oświetlenia, a algorytm rozmyty aktywnie działa.\
+\textbf{Przebieg:}
+\begin{enumerate}
+\item Czujnik przekazuje odchylenia spowodowane skrajnymi odczytami światła z zewnątrz.
+\item Oprogramowanie wykorzystuje zaimplementowaną funkcję uśredniania wyników (średnią kroczącą z czujnika).
+\item System płynnie łagodzi nagłe różnice wartości, poprawiając jakość oświetlenia.
+\end{enumerate}
+
+\vspace{0.5cm}
+\noindent\textbf{Przypadek użycia:} Monitorowanie przetwarzania danych\
+\textbf{Aktor:} Członek zespołu (Twórca)\
+\textbf{Opis:} Diagnozowanie poprawności działania danych przetworzonych przez algorytm i czujnik \cite{karta_projektu}.\
+\textbf{Warunki wstępne:} Prototyp jest stabilnie podłączony przewodem do komputera wyposażonego w kompatybilne środowisko (np. Arduino IDE, PlatformIO, VS Code).\
+\textbf{Przebieg:}
+\begin{enumerate}
+\item Użytkownik uruchamia monitor portu szeregowego.
+\item System strumieniowo przesyła dane pobrane z czujników oraz wyniki wyjściowe wnioskowania algorytmu.
+\item Użytkownik obserwuje generowane w czasie rzeczywistym wykresy, upewniając się co do poprawności algorytmu rozmytego.
+\end{enumerate}
