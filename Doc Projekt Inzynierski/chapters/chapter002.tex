@@ -20,42 +20,91 @@
 \item Zmniejszenie zmęczenia oczu użytkownika i ograniczenie zużycia prądu dzięki wprowadzonej optymalizacji \cite{karta_projektu}.
 \end{itemize}
 
+\section{Planowane podzespoły lampy}
+
+Poniżej zestawiono podzespoły prototypu lampy oraz ich podstawowe parametry i funkcje.
+
+\begin{itemize}
+\item \textbf{Taśma LED COB RGB WS2811} — długość: 2~m; napięcie znamionowe: 24~V DC; moc: 42~W (21~W/m); gęstość: 576 diod/m; sterownik: WS2811; rodzaj: adresowalna taśma RGB COB.
+\item \textbf{Zasilacz 24~V / 2~A (48~W)} — napięcie wyjściowe: 24~V DC; maksymalny prąd wyjściowy: 2~A; moc znamionowa: 48~W. Prąd taśmy 42~W przy 24~V: około 1{,}75~A.
+\item \textbf{Przetwornica obniżająca XL4015 5~A (DC--DC)} — napięcie wejściowe: 4--38~V DC; regulowane napięcie wyjściowe: 1{,}2--36~V DC; maksymalny deklarowany prąd wyjściowy: 5~A. Przeznaczenie: obniżenie napięcia z szyny 24~V dla układu sterującego. 
+\item \textbf{Pojemnościowy przycisk dotykowy TTP223B} — napięcie zasilania: 2{,}5--5~V DC; wyjście: cyfrowe SIG; funkcja: obsługa dotykowa lampy.
+\item \textbf{Enkoder obrotowy EC11P12-L20} — typ: EC11P12-L20; rozdzielczość: 12 impulsów/obrót; funkcja: wybór i regulacja koloru świecenia taśmy LED.
+\end{itemize}
+
+Taśma LED jest zasilana napięciem 24~V, a ESP32 napięciem 5~V. Sygnał sterujący taśmą należy podłączyć zgodnie z wymaganiami interfejsu WS2811.
+
 \section{Przypadki użycia}
 
+Specyfikacje przedstawiono według schematu z instrukcji laboratoryjnej. Aktorem jest użytkownik lampy; czujnik, algorytm i ESP32 są elementami wewnętrznymi systemu.
 
-\vspace{0.5cm}
-\noindent\textbf{Przypadek użycia:} Automatyczna regulacja jasności\
-\textbf{Aktor:} Otoczenie / System\
-\textbf{Opis:} System autonomicznie dobiera jasność diod na podstawie zmiany warunków świetlnych w otoczeniu \cite{karta_projektu}.\
-\textbf{Warunki wstępne:} Mikrokontroler ESP32 jest podłączony do zasilania, a czujnik natężenia światła zbiera dane.\
-\textbf{Przebieg:}
-\begin{enumerate}
-\item Czujnik wykonuje pomiar jasności otoczenia i przekazuje dane.
-\item Dane z czujnika trafiają do algorytmu Fuzzy Logic.
-\item Algorytm na podstawie określonych reguł (np. "jeśli jest ciemno, ustaw jasność na maksimum") wylicza sygnał sterujący.
-\item Mikrokontroler płynnie dostosowuje natężenie własnego światła na taśmie LED.
-\end{enumerate}
+\subsection{Diagram przypadków użycia}
+Rysunek~\ref{fig:use-case-lamp} przedstawia przykładowy diagram UML dla lampy. Użytkownik inicjuje ręczną zmianę koloru i obsługę dotykową. Automatyczna regulacja jasności działa na podstawie pomiaru czujnika i jest funkcją wewnętrzną systemu.
 
-\vspace{0.5cm}
-\noindent\textbf{Przypadek użycia:} Stabilizacja odczytów (zapobieganie migotaniu)\
-\textbf{Aktor:} System\
-\textbf{Opis:} Algorytm zabezpiecza lampę przed niepożądanym zjawiskiem migotania światła na granicach zdefiniowanych wartości \cite{karta_projektu}.\
-\textbf{Warunki wstępne:} System pracuje w trybie ciągłego odczytywania oświetlenia, a algorytm rozmyty aktywnie działa.\
-\textbf{Przebieg:}
-\begin{enumerate}
-\item Czujnik przekazuje odchylenia spowodowane skrajnymi odczytami światła z zewnątrz.
-\item Oprogramowanie wykorzystuje zaimplementowaną funkcję uśredniania wyników (średnią kroczącą z czujnika).
-\item System płynnie łagodzi nagłe różnice wartości, poprawiając jakość oświetlenia.
-\end{enumerate}
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[font=\small, usecase/.style={draw, ellipse, minimum width=4.4cm, minimum height=1cm, align=center}]
+  \draw (0,0) circle (0.23);
+  \draw (0,-0.23) -- (0,-0.95);
+  \draw (-0.42,-0.52) -- (0.42,-0.52);
+  \draw (0,-0.95) -- (-0.38,-1.48);
+  \draw (0,-0.95) -- (0.38,-1.48);
+  \node[align=center] at (0,-1.82) {Użytkownik};
+  \draw (2.3,1.2) rectangle (10.5,-5.1);
+  \node[anchor=north] at (6.4,1.16) {Lampa LED};
+  \node[usecase] (uc1) at (6.4,0) {Automatycznie dostosuj\\jasność};
+  \node[usecase] (uc2) at (6.4,-1.6) {Ustaw kolor\\świecenia};
+  \node[usecase] (uc3) at (6.4,-3.2) {Obsłuż dotykowo\\lampę};
+  \draw (0.45,-0.52) -- (4.2,-1.6);
+  \draw (0.45,-0.52) -- (4.2,-3.2);
+\end{tikzpicture}
+\caption{Przykładowy diagram przypadków użycia lampy LED}
+\label{fig:use-case-lamp}
+\end{figure}
+\subsection*{UC01 — Automatycznie dostosuj jasność}
+\textbf{Aktor główny:} Użytkownik lampy.\\
+\textbf{Cel:} Automatyczne dostosowanie jasności taśmy LED do natężenia światła w otoczeniu.\\
+\textbf{Warunki początkowe:} Lampa jest zasilana i działa w trybie automatycznym; czujnik światła jest dostępny.\\
+\textbf{Warunek końcowy — sukces:} Jasność taśmy zostaje ustawiona na podstawie aktualnego pomiaru.\\
+\textbf{Warunek końcowy — niepowodzenie:} Przy niepoprawnym pomiarze system zachowuje ostatnią poprawną jasność.
 
-\vspace{0.5cm}
-\noindent\textbf{Przypadek użycia:} Monitorowanie przetwarzania danych\
-\textbf{Aktor:} Członek zespołu (Twórca)\
-\textbf{Opis:} Diagnozowanie poprawności działania danych przetworzonych przez algorytm i czujnik \cite{karta_projektu}.\
-\textbf{Warunki wstępne:} Prototyp jest stabilnie podłączony przewodem do komputera wyposażonego w kompatybilne środowisko (np. Arduino IDE, PlatformIO, VS Code).\
-\textbf{Przebieg:}
+\textbf{Przebieg główny:}
 \begin{enumerate}
-\item Użytkownik uruchamia monitor portu szeregowego.
-\item System strumieniowo przesyła dane pobrane z czujników oraz wyniki wyjściowe wnioskowania algorytmu.
-\item Użytkownik obserwuje generowane w czasie rzeczywistym wykresy, upewniając się co do poprawności algorytmu rozmytego.
+\item System mierzy natężenie światła.
+\item System filtruje pomiar i przekazuje go do algorytmu Fuzzy Logic.
+\item Algorytm wyznacza docelową jasność.
+\item ESP32 aktualizuje jasność taśmy LED.
 \end{enumerate}
+\textbf{Scenariusz alternatywny A1 — niepoprawny pomiar:} System pomija aktualizację jasności i zachowuje ostatnią poprawną wartość.
+
+\subsection*{UC02 — Ustaw kolor świecenia}
+\textbf{Aktor główny:} Użytkownik lampy.\\
+\textbf{Cel:} Wybór i regulacja koloru taśmy LED za pomocą enkodera obrotowego.\\
+\textbf{Warunki początkowe:} Lampa jest zasilana; enkoder i taśma LED są gotowe do pracy.\\
+\textbf{Warunek końcowy — sukces:} Taśma LED wyświetla wybrany kolor.\\
+\textbf{Warunek końcowy — niepowodzenie:} Kolor pozostaje bez zmian, jeśli sygnał enkodera nie zostanie poprawnie odczytany.
+
+\textbf{Przebieg główny:}
+\begin{enumerate}
+\item Użytkownik obraca enkoder.
+\item ESP32 odczytuje kierunek obrotu i aktualizuje wybrany kolor.
+\item ESP32 przesyła dane sterujące do taśmy LED.
+\item Taśma LED wyświetla ustawiony kolor.
+\end{enumerate}
+\textbf{Scenariusz alternatywny A1 — niepoprawny sygnał enkodera:} System odrzuca sygnał i pozostawia dotychczasowy kolor.
+
+\subsection*{UC03 — Obsłuż dotykowo lampę}
+\textbf{Aktor główny:} Użytkownik lampy.\\
+\textbf{Cel:} Sterowanie lampą za pomocą przycisku pojemnościowego TTP223B.\\
+\textbf{Warunki początkowe:} Lampa jest zasilana; wyjście SIG modułu jest podłączone do wejścia ESP32.\\
+\textbf{Warunek końcowy — sukces:} System wykonuje funkcję przypisaną do dotknięcia przycisku.\\
+\textbf{Warunek końcowy — niepowodzenie:} Stan lampy nie zmienia się, jeśli sygnał dotyku nie zostanie odebrany.
+
+\textbf{Przebieg główny:}
+\begin{enumerate}
+\item Użytkownik dotyka przycisku.
+\item TTP223B przekazuje sygnał cyfrowy SIG do ESP32.
+\item ESP32 rozpoznaje sygnał i wykonuje przypisaną funkcję.
+\item System aktualizuje stan lampy.
+\end{enumerate}
+\textbf{Scenariusz alternatywny A1 — brak sygnału:} ESP32 nie wykrywa zmiany SIG; lampa pozostaje w dotychczasowym stanie.

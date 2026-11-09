@@ -193,18 +193,118 @@ INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Users\diana\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Users\diana\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Users\diana\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\diana\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeyslibraryfiltered.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
 INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfint.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\shapes\pgflibraryshapes.geometric.code.tex
+INPUT C:\Users\diana\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\diana\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\diana\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\diana\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Users\diana\AppData\Roaming\MiKTeX\tex\latex\makecell\makecell.sty
 INPUT C:\Users\diana\AppData\Roaming\MiKTeX\tex\latex\makecell\makecell.sty
 INPUT C:\Users\diana\AppData\Roaming\MiKTeX\tex\latex\threeparttable\threeparttable.sty
@@ -248,9 +348,6 @@ INPUT chapters\chapter001.aux
 INPUT .\chapters\chapter002.aux
 INPUT .\chapters\chapter002.aux
 INPUT chapters\chapter002.aux
-INPUT .\chapters\chapter004.aux
-INPUT .\chapters\chapter004.aux
-INPUT chapters\chapter004.aux
 INPUT .\chapters\abstract.aux
 INPUT .\chapters\abstract.aux
 INPUT chapters\abstract.aux
@@ -359,59 +456,9 @@ INPUT C:\Users\diana\AppData\Roaming\MiKTeX\fonts\vf\google\carlito\Crlt-Italic-
 INPUT C:\Users\diana\AppData\Roaming\MiKTeX\fonts\tfm\google\carlito\Crlt-Italic-osf-t1--base.tfm
 INPUT C:\Users\diana\AppData\Roaming\MiKTeX\fonts\vf\google\carlito\Crlt-osf-t1.vf
 INPUT C:\Users\diana\AppData\Roaming\MiKTeX\fonts\tfm\google\carlito\Crlt-osf-t1--base.tfm
-INPUT .\chapters\chapter004.tex
-INPUT .\chapters\chapter004.tex
-OUTPUT chapters\chapter004.aux
-INPUT .\chapters\chapter004.tex
-INPUT .\chapters\chapter004.tex
-INPUT chapters\chapter004.tex
-INPUT .\figures\prompts\chatGPT prompt.png
-INPUT .\figures\prompts\chatGPT prompt.png
-INPUT .\figures\prompts\chatGPT prompt.png
-INPUT .\figures\prompts\chatGPT prompt.png
-INPUT .\figures\prompts\chatGPT prompt.png
-INPUT .\figures\prompts\chatGPT prompt.png
-INPUT .\figures\prompts\chatGPT prompt.png
-INPUT .\figures\prompts\use case prompt.png
-INPUT .\figures\prompts\use case prompt.png
-INPUT .\figures\prompts\use case prompt.png
-INPUT .\figures\prompts\use case prompt.png
-INPUT .\figures\prompts\use case prompt.png
-INPUT .\figures\prompts\use case prompt.png
-INPUT .\figures\prompts\use case prompt.png
-INPUT .\figures\prompts\prompt_translation.png
-INPUT .\figures\prompts\prompt_translation.png
-INPUT .\figures\prompts\prompt_translation.png
-INPUT .\figures\prompts\prompt_translation.png
-INPUT .\figures\prompts\prompt_translation.png
-INPUT .\figures\prompts\prompt_translation.png
-INPUT .\figures\prompts\prompt_translation.png
-INPUT .\figures\prompts\use_case_english.png
-INPUT .\figures\prompts\use_case_english.png
-INPUT .\figures\prompts\use_case_english.png
-INPUT .\figures\prompts\use_case_english.png
-INPUT .\figures\prompts\use_case_english.png
-INPUT .\figures\prompts\use_case_english.png
-INPUT .\figures\prompts\use_case_english.png
-INPUT .\figures\prompts\diagrams_net_use_case.png
-INPUT .\figures\prompts\diagrams_net_use_case.png
-INPUT .\figures\prompts\diagrams_net_use_case.png
-INPUT .\figures\prompts\diagrams_net_use_case.png
-INPUT .\figures\prompts\diagrams_net_use_case.png
-INPUT .\figures\prompts\diagrams_net_use_case.png
-INPUT .\figures\prompts\diagrams_net_use_case.png
-INPUT .\figures\prompts\diagrams_net_rendered.png
-INPUT .\figures\prompts\diagrams_net_rendered.png
-INPUT .\figures\prompts\diagrams_net_rendered.png
-INPUT .\figures\prompts\diagrams_net_rendered.png
-INPUT .\figures\prompts\diagrams_net_rendered.png
-INPUT .\figures\prompts\diagrams_net_rendered.png
-INPUT .\figures\prompts\diagrams_net_rendered.png
 INPUT .\praca.bbl
 INPUT .\praca.bbl
 INPUT praca.bbl
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecti1000.tfm
 INPUT C:\Users\diana\AppData\Roaming\MiKTeX\fonts\tfm\google\carlito\Crlt-osf-t1.tfm
 INPUT C:\Users\diana\AppData\Roaming\MiKTeX\fonts\tfm\google\carlito\Crlt-Bold-osf-t1.tfm
 INPUT .\praca.lof
@@ -451,9 +498,6 @@ INPUT chapters\chapter001.aux
 INPUT .\chapters\chapter002.aux
 INPUT .\chapters\chapter002.aux
 INPUT chapters\chapter002.aux
-INPUT .\chapters\chapter004.aux
-INPUT .\chapters\chapter004.aux
-INPUT chapters\chapter004.aux
 INPUT .\chapters\abstract.aux
 INPUT .\chapters\abstract.aux
 INPUT chapters\abstract.aux
@@ -462,8 +506,6 @@ INPUT .\appendix\statement-A.aux
 INPUT appendix\statement-A.aux
 INPUT .\praca.out
 INPUT .\praca.out
-INPUT C:\Users\diana\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
-INPUT C:\Users\diana\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
 INPUT C:\Users\diana\AppData\Roaming\MiKTeX\fonts\type1\google\carlito\Crlt-Bold.pfb
 INPUT C:\Users\diana\AppData\Roaming\MiKTeX\fonts\type1\google\carlito\Crlt-Bold.pfb
 INPUT C:\Users\diana\AppData\Roaming\MiKTeX\fonts\type1\google\carlito\Crlt-Italic.pfb

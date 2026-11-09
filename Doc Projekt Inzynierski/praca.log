@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.1)  27 OCT 2026 12:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.1)  9 NOV 2026 21:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -538,43 +538,59 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     but found:
         2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
-(C:\Users\diana\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen264
-\lightrulewidth=\dimen265
-\cmidrulewidth=\dimen266
-\belowrulesep=\dimen267
-\belowbottomsep=\dimen268
-\aboverulesep=\dimen269
-\abovetopsep=\dimen270
-\cmidrulesep=\dimen271
-\cmidrulekern=\dimen272
-\defaultaddspace=\dimen273
-\@cmidla=\count349
-\@cmidlb=\count350
-\@aboverulesep=\dimen274
-\@belowrulesep=\dimen275
-\@thisruleclass=\count351
-\@lastruleclass=\count352
-\@thisrulewidth=\dimen276
-) (C:\Users\diana\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
-Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip117
-\multirow@cntb=\count353
-\multirow@dima=\skip118
-\bigstrutjot=\dimen277
-) (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen278
-\TX@old@table=\dimen279
-\TX@old@col=\dimen280
-\TX@target=\dimen281
-\TX@delta=\dimen282
-\TX@cols=\count354
-\TX@ftn=\toks42
-) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks42
+\pgfutil@tempdima=\dimen264
+\pgfutil@tempdimb=\dimen265
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box72
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks43
+\pgfkeys@temptoks=\toks44
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks45
+))
+\pgf@x=\dimen266
+\pgf@y=\dimen267
+\pgf@xa=\dimen268
+\pgf@ya=\dimen269
+\pgf@xb=\dimen270
+\pgf@yb=\dimen271
+\pgf@xc=\dimen272
+\pgf@yc=\dimen273
+\pgf@xd=\dimen274
+\pgf@yd=\dimen275
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count349
+\c@pgf@countb=\count350
+\c@pgf@countc=\count351
+\c@pgf@countd=\count352
+\t@pgf@toka=\toks46
+\t@pgf@tokb=\toks47
+\t@pgf@tokc=\toks48
+\pgf@sys@id@count=\count353
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count354
+\pgfsyssoftpath@bigbuffer@items=\count355
+) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
  (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -591,42 +607,207 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen276
+\pgfmath@count=\count356
+\pgfmath@box=\box73
+\pgfmath@toks=\toks49
+\pgfmath@stack@operand=\toks50
+\pgfmath@stack@operation=\toks51
+) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count357
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen277
+\pgf@picmaxx=\dimen278
+\pgf@picminy=\dimen279
+\pgf@picmaxy=\dimen280
+\pgf@pathminx=\dimen281
+\pgf@pathmaxx=\dimen282
+\pgf@pathminy=\dimen283
+\pgf@pathmaxy=\dimen284
+\pgf@xx=\dimen285
+\pgf@xy=\dimen286
+\pgf@yx=\dimen287
+\pgf@yy=\dimen288
+\pgf@zx=\dimen289
+\pgf@zy=\dimen290
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen291
+\pgf@path@lasty=\dimen292
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen293
+\pgf@shorten@start@additional=\dimen294
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box74
+\pgf@hbox=\box75
+\pgf@layerbox@main=\box76
+\pgf@picture@serial@count=\count358
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen295
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen296
+\pgf@pt@y=\dimen297
+\pgf@pt@temp=\dimen298
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen299
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen300
+\pgf@sys@shading@range@num=\count359
+\pgf@shadingcount=\count360
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box77
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box78
+) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen301
+\pgf@nodesepend=\dimen302
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen303
+\pgffor@skip=\dimen304
+\pgffor@stack=\toks52
+\pgffor@toks=\toks53
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count361
+\pgfplotmarksize=\dimen305
+)
+\tikz@lastx=\dimen306
+\tikz@lasty=\dimen307
+\tikz@lastxsaved=\dimen308
+\tikz@lastysaved=\dimen309
+\tikz@lastmovetox=\dimen310
+\tikz@lastmovetoy=\dimen311
+\tikzleveldistance=\dimen312
+\tikzsiblingdistance=\dimen313
+\tikz@figbox=\box79
+\tikz@figbox@bg=\box80
+\tikz@tempbox=\box81
+\tikz@tempbox@bg=\box82
+\tikztreelevel=\count362
+\tikznumberofchildren=\count363
+\tikznumberofcurrentchild=\count364
+\tikz@fig@count=\count365
+ (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count366
+\pgfmatrixcurrentcolumn=\count367
+\pgf@matrix@numberofcolumns=\count368
+)
+\tikz@expandcount=\count369
+ (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (C:\Users\diana\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen314
+\lightrulewidth=\dimen315
+\cmidrulewidth=\dimen316
+\belowrulesep=\dimen317
+\belowbottomsep=\dimen318
+\aboverulesep=\dimen319
+\abovetopsep=\dimen320
+\cmidrulesep=\dimen321
+\cmidrulekern=\dimen322
+\defaultaddspace=\dimen323
+\@cmidla=\count370
+\@cmidlb=\count371
+\@aboverulesep=\dimen324
+\@belowrulesep=\dimen325
+\@thisruleclass=\count372
+\@lastruleclass=\count373
+\@thisrulewidth=\dimen326
+) (C:\Users\diana\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip117
+\multirow@cntb=\count374
+\multirow@dima=\skip118
+\bigstrutjot=\dimen327
+) (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen328
+\TX@old@table=\dimen329
+\TX@old@col=\dimen330
+\TX@target=\dimen331
+\TX@delta=\dimen332
+\TX@cols=\count375
+\TX@ftn=\toks54
+) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 ) (C:\Users\diana\AppData\Roaming\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen283
-\c@nlinenum=\count355
-\TeXr@lab=\toks43
+\rotheadsize=\dimen333
+\c@nlinenum=\count376
+\TeXr@lab=\toks55
 ) (C:\Users\diana\AppData\Roaming\MiKTeX\tex/latex/threeparttable\threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box72
+\@tempboxb=\box83
 ) (C:\Users\diana\AppData\Roaming\MiKTeX\tex/latex/ulem\ulem.sty
-\UL@box=\box73
-\UL@hyphenbox=\box74
+\UL@box=\box84
+\UL@hyphenbox=\box85
 \UL@skip=\skip119
-\UL@hook=\toks44
-\UL@height=\dimen284
-\UL@pe=\count356
-\UL@pixel=\dimen285
-\ULC@box=\box75
+\UL@hook=\toks56
+\UL@height=\dimen334
+\UL@pe=\count377
+\UL@pixel=\dimen335
+\ULC@box=\box86
 Package: ulem 2019/11/18
-\ULdepth=\dimen286
+\ULdepth=\dimen336
 ) (C:\Users\diana\AppData\Roaming\MiKTeX\tex/latex/lineno\lineno.sty
 Package: lineno 2025/05/13 line numbers on paragraphs v5.5
-\linenopenalty=\count357
-\output=\toks45
-\linenoprevgraf=\count358
-\linenumbersep=\dimen287
-\linenumberwidth=\dimen288
-\c@linenumber=\count359
-\c@pagewiselinenumber=\count360
-\c@LN@truepage=\count361
-\c@internallinenumber=\count362
-\c@internallinenumbers=\count363
-\quotelinenumbersep=\dimen289
-\bframerule=\dimen290
-\bframesep=\dimen291
-\bframebox=\box76
-\@LN@amsmath@ams@eqpen=\count364
+\linenopenalty=\count378
+\output=\toks57
+\linenoprevgraf=\count379
+\linenumbersep=\dimen337
+\linenumberwidth=\dimen338
+\c@linenumber=\count380
+\c@pagewiselinenumber=\count381
+\c@LN@truepage=\count382
+\c@internallinenumber=\count383
+\c@internallinenumbers=\count384
+\quotelinenumbersep=\dimen339
+\bframerule=\dimen340
+\bframesep=\dimen341
+\bframebox=\box87
+\@LN@amsmath@ams@eqpen=\count385
 ) (C:\Users\diana\AppData\Roaming\MiKTeX\tex/latex/ltablex\ltablex.sty
 Package: ltablex 2014/08/13 v1.1 Modified tabularx
  (C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
@@ -635,27 +816,27 @@ Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LTright=\skip121
 \LTpre=\skip122
 \LTpost=\skip123
-\LTchunksize=\count365
-\LTcapwidth=\dimen292
-\LT@head=\box77
-\LT@firsthead=\box78
-\LT@foot=\box79
-\LT@lastfoot=\box80
-\LT@gbox=\box81
-\LT@cols=\count366
-\LT@rows=\count367
-\c@LT@tables=\count368
-\c@LT@chunks=\count369
-\LT@p@ftn=\toks46
+\LTchunksize=\count386
+\LTcapwidth=\dimen342
+\LT@head=\box88
+\LT@firsthead=\box89
+\LT@foot=\box90
+\LT@lastfoot=\box91
+\LT@gbox=\box92
+\LT@cols=\count387
+\LT@rows=\count388
+\c@LT@tables=\count389
+\c@LT@chunks=\count390
+\LT@p@ftn=\toks58
 )) (C:\Users\diana\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count370
-\csq@gtype=\count371
-\csq@glevel=\count372
-\csq@qlevel=\count373
-\csq@maxlvl=\count374
-\csq@tshold=\count375
-\csq@ltx@everypar=\toks47
+\csq@reset=\count391
+\csq@gtype=\count392
+\csq@glevel=\count393
+\csq@qlevel=\count394
+\csq@maxlvl=\count395
+\csq@tshold=\count396
+\csq@ltx@everypar=\toks59
  (C:\Users\diana\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
@@ -672,54 +853,54 @@ File: lstlang2.sty 2025/11/14 1.11b listings language file
 ) (C:\Program Files\MiKTeX\tex/latex/listings\lstlang3.sty
 File: lstlang3.sty 2025/11/14 1.11b listings language file
 )
-\@float@every@prompt=\toks48
-\c@prompt=\count376
+\@float@every@prompt=\toks60
+\c@prompt=\count397
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'polish'.
  (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count377
+\l__color_backend_stack_int=\count398
 ) (praca.aux
 Package babel Info: 'polish' activates 'polish' shorthands.
 (babel)             Reported on input line 8.
- (chapters/chapter001.aux) (chapters/chapter002.aux) (chapters/chapter004.aux) (chapters/abstract.aux) (appendix/statement-A.aux))
+ (chapters/chapter001.aux) (chapters/chapter002.aux) (chapters/abstract.aux) (appendix/statement-A.aux))
 \openout1 = `praca.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 241.
-LaTeX Font Info:    ... okay on input line 241.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 241.
-LaTeX Font Info:    ... okay on input line 241.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 241.
-LaTeX Font Info:    ... okay on input line 241.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 241.
-LaTeX Font Info:    ... okay on input line 241.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 241.
-LaTeX Font Info:    ... okay on input line 241.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 241.
-LaTeX Font Info:    ... okay on input line 241.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 241.
-LaTeX Font Info:    ... okay on input line 241.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 241.
-LaTeX Font Info:    ... okay on input line 241.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 241.
-LaTeX Font Info:    ... okay on input line 241.
-\c@mv@tabular=\count378
-\c@mv@boldtabular=\count379
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 243.
+LaTeX Font Info:    ... okay on input line 243.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 243.
+LaTeX Font Info:    ... okay on input line 243.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 243.
+LaTeX Font Info:    ... okay on input line 243.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 243.
+LaTeX Font Info:    ... okay on input line 243.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 243.
+LaTeX Font Info:    ... okay on input line 243.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 243.
+LaTeX Font Info:    ... okay on input line 243.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 243.
+LaTeX Font Info:    ... okay on input line 243.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 243.
+LaTeX Font Info:    ... okay on input line 243.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 243.
+LaTeX Font Info:    ... okay on input line 243.
+\c@mv@tabular=\count399
+\c@mv@boldtabular=\count400
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count380
-\scratchdimen=\dimen293
-\scratchbox=\box82
-\nofMPsegments=\count381
-\nofMParguments=\count382
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count383
-\MPscratchDim=\dimen294
-\MPnumerator=\count384
-\makeMPintoPDFobject=\count385
-\everyMPtoPDFconversion=\toks50
+\scratchcounter=\count401
+\scratchdimen=\dimen343
+\scratchbox=\box93
+\nofMPsegments=\count402
+\nofMParguments=\count403
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count404
+\MPscratchDim=\dimen344
+\MPnumerator=\count405
+\makeMPintoPDFobject=\count406
+\everyMPtoPDFconversion=\toks62
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -773,37 +954,37 @@ Package caption Info: End \AtBeginDocument code.
  (C:\Users\diana\AppData\Roaming\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-polish.trsl
 File: translations-basic-dictionary-polish.trsl (polish translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `polish'. on input line 241.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `polish'. on input line 243.
  (C:\Users\diana\AppData\Roaming\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 241.
-Package hyperref Info: Link coloring OFF on input line 241.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 243.
+Package hyperref Info: Link coloring OFF on input line 243.
  (praca.out) (praca.out)
-\@outlinefile=\write3
-\openout3 = `praca.out'.
+\@outlinefile=\write4
+\openout4 = `praca.out'.
 
-\c@lstlisting=\count386
+\c@lstlisting=\count407
 
 
 LaTeX Font Warning: Font shape `T1/Crlt-OsF/b/sc' undefined
-(Font)              using `T1/Crlt-OsF/b/n' instead on input line 243.
+(Font)              using `T1/Crlt-OsF/b/n' instead on input line 245.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 243.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 245.
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 243.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 245.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/ur_HQ.jpg, id=61, 1003.75pt x 1003.75pt>
+<figures/ur_HQ.jpg, id=60, 1003.75pt x 1003.75pt>
 File: figures/ur_HQ.jpg Graphic file (type jpg)
 <use figures/ur_HQ.jpg>
-Package pdftex.def Info: figures/ur_HQ.jpg  used on input line 243.
+Package pdftex.def Info: figures/ur_HQ.jpg  used on input line 245.
 (pdftex.def)             Requested size: 100.38087pt x 100.38087pt.
 
-Overfull \hbox (1.50697pt too wide) in paragraph at lines 243--243
+Overfull \hbox (1.50697pt too wide) in paragraph at lines 245--245
 $[]$  $[]$ 
  []
 
@@ -813,13 +994,13 @@ $[]$  $[]$
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.243 \titlepages
+l.245 \titlepages
                   [1
 
 
 ] (praca.toc)
-\tf@toc=\write4
-\openout4 = `praca.toc'.
+\tf@toc=\write5
+\openout5 = `praca.toc'.
 
  [5
 
@@ -845,89 +1026,47 @@ Rozdzia\l  2.
 
 
 
-])
+]
 LaTeX Font Info:    Font shape `T1/Crlt-OsF/m/sl' in size <10> not available
-(Font)              Font shape `T1/Crlt-OsF/m/it' tried instead on input line 262.
+(Font)              Font shape `T1/Crlt-OsF/m/it' tried instead on input line 75.
 LaTeX Font Info:    Font shape `T1/Crlt-OsF/m/sl' in size <9> not available
-(Font)              Font shape `T1/Crlt-OsF/m/it' tried instead on input line 262.
+(Font)              Font shape `T1/Crlt-OsF/m/it' tried instead on input line 75.
 Package babel Info: 'polish' activates 'polish' shorthands.
-(babel)             Reported on input line 262.
- [8]
-\openout2 = `chapters/chapter004.aux'.
-
- (chapters/chapter004.tex
-Rozdzia\l  3.
-<figures/prompts/chatGPT prompt.png, id=133, 686.565pt x 476.982pt>
-File: figures/prompts/chatGPT prompt.png Graphic file (type png)
-<use figures/prompts/chatGPT prompt.png>
-Package pdftex.def Info: figures/prompts/chatGPT prompt.png  used on input line 12.
-(pdftex.def)             Requested size: 426.79135pt x 296.50453pt.
-Package hyperref Info: bookmark level for unknown prompt defaults to 0 on input line 13.
-<figures/prompts/use case prompt.png, id=136, 515.526pt x 446.26724pt>
-File: figures/prompts/use case prompt.png Graphic file (type png)
-<use figures/prompts/use case prompt.png>
-Package pdftex.def Info: figures/prompts/use case prompt.png  used on input line 26.
-(pdftex.def)             Requested size: 426.79135pt x 369.46881pt.
-[9
-
-
-
-
- <./figures/prompts/chatGPT prompt.png>] [10 <./figures/prompts/use case prompt.png>]
-<figures/prompts/prompt_translation.png, id=159, 894.9435pt x 465.53925pt>
-File: figures/prompts/prompt_translation.png Graphic file (type png)
-<use figures/prompts/prompt_translation.png>
-Package pdftex.def Info: figures/prompts/prompt_translation.png  used on input line 40.
-(pdftex.def)             Requested size: 426.79135pt x 222.00717pt.
-<figures/prompts/use_case_english.png, id=160, 533.5935pt x 428.802pt>
-File: figures/prompts/use_case_english.png Graphic file (type png)
-<use figures/prompts/use_case_english.png>
-Package pdftex.def Info: figures/prompts/use_case_english.png  used on input line 49.
-(pdftex.def)             Requested size: 426.79135pt x 342.98972pt.
-<figures/prompts/diagrams_net_use_case.png, id=161, 508.90125pt x 457.71pt>
-File: figures/prompts/diagrams_net_use_case.png Graphic file (type png)
-<use figures/prompts/diagrams_net_use_case.png>
-Package pdftex.def Info: figures/prompts/diagrams_net_use_case.png  used on input line 56.
-(pdftex.def)             Requested size: 426.79135pt x 383.87315pt.
-<figures/prompts/diagrams_net_rendered.png, id=162, 970.22475pt x 522.15076pt>
-File: figures/prompts/diagrams_net_rendered.png Graphic file (type png)
-<use figures/prompts/diagrams_net_rendered.png>
-Package pdftex.def Info: figures/prompts/diagrams_net_rendered.png  used on input line 63.
-(pdftex.def)             Requested size: 426.79135pt x 229.6833pt.
-) [11 <./figures/prompts/diagrams_net_rendered.png> <./figures/prompts/prompt_translation.png>] [12 <./figures/prompts/use_case_english.png>] [13 <./figures/prompts/diagrams_net_use_case.png>] (praca.bbl) [14
+(babel)             Reported on input line 75.
+ [8]) [9] (praca.bbl) [10
 
 
 
 ] (praca.lof)
-\tf@lof=\write5
-\openout5 = `praca.lof'.
+\tf@lof=\write6
+\openout6 = `praca.lof'.
 
- [15
+ [11
 
 ] (praca.lot)
-\tf@lot=\write6
-\openout6 = `praca.lot'.
+\tf@lot=\write7
+\openout7 = `praca.lot'.
 
- [16
+ [12
 
 ] (praca.lol)
-\tf@lol=\write7
-\openout7 = `praca.lol'.
+\tf@lol=\write8
+\openout8 = `praca.lol'.
 
- [17
+ [13
 
 
 ] (praca.lop)
-\tf@lop=\write8
-\openout8 = `praca.lop'.
+\tf@lop=\write9
+\openout9 = `praca.lop'.
 
- [18
+ [14
 
 
 ]
 \openout2 = `chapters/abstract.aux'.
 
- (chapters/abstract.tex) [19
+ (chapters/abstract.tex) [15
 
 
 
@@ -949,17 +1088,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
-) [20
+) [16
 
 
 
 
 ]
 
-Package caption Warning: Unused \captionsetup[sub] on input line 29.
+Package caption Warning: Unused \captionsetup[sub] on input line 31.
 See the caption package documentation for explanation.
 
-(praca.aux (chapters/chapter001.aux) (chapters/chapter002.aux) (chapters/chapter004.aux) (chapters/abstract.aux) (appendix/statement-A.aux))
+(praca.aux (chapters/chapter001.aux) (chapters/chapter002.aux) (chapters/abstract.aux) (appendix/statement-A.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -969,20 +1108,20 @@ L3 programming layer <2025-12-24>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `praca.out' has not changed.
-(rerunfilecheck)             Checksum: F226CB5A465789CAA8C7B71F81679F3F;2565.
+(rerunfilecheck)             Checksum: 89B2E0830613A7BFEEB2A974355B0F23;2159.
  ) 
 Here is how much of TeX's memory you used:
- 23692 strings out of 467871
- 451331 string characters out of 5428444
- 1016649 words of memory out of 5000000
- 52113 multiletter control sequences out of 15000+600000
- 736544 words of font info for 78 fonts, out of 8000000 for 9000
+ 34131 strings out of 467871
+ 679622 string characters out of 5428444
+ 1223611 words of memory out of 5000000
+ 62360 multiletter control sequences out of 15000+600000
+ 735095 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,12n,131p,1597b,1273s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\diana\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk><C:/Users/diana/AppData/Roaming/MiKTeX/fonts/type1/google/carlito/Crlt-Bold.pfb><C:/Users/diana/AppData/Roaming/MiKTeX/fonts/type1/google/carlito/Crlt-Italic.pfb><C:/Users/diana/AppData/Roaming/MiKTeX/fonts/type1/google/carlito/Crlt-Regular.pfb>
-Output written on praca.pdf (18 pages, 965948 bytes).
+ 88i,12n,131p,599b,1262s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/diana/AppData/Roaming/MiKTeX/fonts/type1/google/carlito/Crlt-Bold.pfb><C:/Users/diana/AppData/Roaming/MiKTeX/fonts/type1/google/carlito/Crlt-Italic.pfb><C:/Users/diana/AppData/Roaming/MiKTeX/fonts/type1/google/carlito/Crlt-Regular.pfb>
+Output written on praca.pdf (14 pages, 298346 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 

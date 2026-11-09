@@ -5,8 +5,6 @@ Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: chapters/chapter001.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: chapters/chapter002.aux
-Reallocating 'name_of_file' (item size: 1) to 24 items.
-A level-1 auxiliary file: chapters/chapter004.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: unsrturl.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
@@ -20,44 +18,44 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: bibliografia.bib
-You've used 2 entries,
+You've used 1 entry,
             2616 wiz_defined-function locations,
-            596 strings with 4966 characters,
-and the built_in function-call counts, 507 in all, are:
-= -- 43
-> -- 11
+            590 strings with 4844 characters,
+and the built_in function-call counts, 270 in all, are:
+= -- 21
+> -- 5
 < -- 0
-+ -- 4
-- -- 2
-* -- 7
-:= -- 78
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 2
++ -- 2
+- -- 1
+* -- 3
+:= -- 58
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 12
-empty$ -- 70
-format.name$ -- 2
-if$ -- 151
+cite$ -- 1
+duplicate$ -- 5
+empty$ -- 34
+format.name$ -- 1
+if$ -- 73
 int.to.chr$ -- 0
-int.to.str$ -- 2
+int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 13
+newline$ -- 8
 num.names$ -- 1
-pop$ -- 26
+pop$ -- 12
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 45
+skip$ -- 22
 stack$ -- 0
 substring$ -- 0
-swap$ -- 2
+swap$ -- 1
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 1
-width$ -- 3
-write$ -- 21
+width$ -- 2
+write$ -- 12
